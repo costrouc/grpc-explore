@@ -16,6 +16,7 @@ message TodoItems {
 service Todo {
   rpc createTodo(TodoItem) returns (TodoItem);
   rpc readTodos(Empty) returns (TodoItems);
+  rpc readTodosStream(Empty) returns (stream TodoItem);
 }
 
 
