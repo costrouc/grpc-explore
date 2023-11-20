@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grpc_example"
+authors = [
+    {name = "Chris Ostrouchov", email = "chris.ostrouchov@gmail.com"},
+]
+description = "GRPC Example"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "grpcio-tools",
+]
+version = "0.1"
